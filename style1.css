@@ -1,0 +1,35 @@
+/*## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)*/
+
+.card{
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.card img{
+    border-radius: 10px;
+    width: 250px;
+}
+body{
+   background-color:hsl(212, 45%, 89%);
+}
+.card h3{
+    font-size: 19px;
+    font-family: sans-serif;
+    color: hsl(218, 44%, 22%);
+    font-weight: bold;
+}
+.card p{
+    font-size: 15px;
+    font-family: sans-serif ;
+    color: hsl(220, 15%, 55%);
+    line-height: 1.5;
+}
